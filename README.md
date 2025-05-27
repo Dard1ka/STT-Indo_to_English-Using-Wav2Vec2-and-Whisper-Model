@@ -4,36 +4,36 @@ This project is a real-time Speech-to-Text (STT) and translation application tha
 
 🚀 Features : 
 
-  🎤 Real-time voice recording via microphone
+  - 🎤 Real-time voice recording via microphone
 
-  🧠 Speech recognition using Wav2Vec2 (fine-tuned model)
+  - 🧠 Speech recognition using Wav2Vec2 (fine-tuned model)
 
-  🌍 Text translation from Indonesian to English using Google Translate
+  - 🌍 Text translation from Indonesian to English using Google Translate
 
-  ⚙️ Built with Streamlit
+  - ⚙️ Built with Streamlit
 
-  💻 Runs on CPU or GPU (automatically detected)
+  - 💻 Runs on CPU or GPU (automatically detected)
 
 🧰 Tech Stack
-  Python, Streamlit, Torch, Transformers, Librosa
+  - Python, Streamlit, Torch, Transformers, Librosa
 
-  Model: Pretrained or fine-tuned Wav2Vec2.0
+  - Model: Pretrained or fine-tuned Wav2Vec2.0
 
-  Translation: deep-translator
+  - Translation: deep-translator
 
 📂 Project Structure
 
-  ├── wav2vec2model
+  - ├── wav2vec2model
 
-  --->├── app.py                    # Main Streamlit Wav2Vec2 app
+  - --->├── app.py                    # Main Streamlit Wav2Vec2 app
   
-  ├── whispermodel
+  - ├── whispermodel
 
-  --->├── app.py                    # Main Streamlit whisper app
+  - --->├── app.py                    # Main Streamlit whisper app
   
-  ├── requirements.txt          # List of dependencies
+  - ├── requirements.txt          # List of dependencies
 
-  └── README.md
+  - └── README.md
 
 📦 Installation & Running
     
@@ -55,25 +55,25 @@ This project is a real-time Speech-to-Text (STT) and translation application tha
 
 🧪 Example Usage
 
-  Open the web UI
+  - Open the web UI
 
-  Adjust the recording duration
+  - Adjust the recording duration
 
-  Click "Mulai Rekaman"
+  - Click "Mulai Rekaman"
 
-  View:
+  - View:
 
-  📝 Transcription (in Bahasa Indonesia)
+  - 📝 Transcription (in Bahasa Indonesia)
 
-  🌍 Translation (in English)
+  - 🌍 Translation (in English)
 
 🔐 Notes
 
-  Requires a stable internet connection for translation using Google Translate.
+  - Requires a stable internet connection for translation using Google Translate.
 
-  The speech model should be compatible with Indonesian language input (you can fine-tune Wav2Vec2 for better accuracy).
+  - The speech model should be compatible with Indonesian language input (you can fine-tune Wav2Vec2 for better accuracy).
 
 📄 License
 
-  MIT License © 2025
+  - MIT License © 2025
 
