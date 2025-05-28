@@ -1,0 +1,5 @@
+Wav2Vec2 Model : 
+https://drive.google.com/drive/folders/1RTYiFvAN2QH4_NgUXKMB8mHiW246lINV?usp=sharing 
+
+Whisper Model : 
+https://drive.google.com/drive/folders/14Mt0v3BxQ9bTZCC9_hEHn-u7l2QgWOtM?usp=sharing
